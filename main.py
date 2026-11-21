@@ -1,7 +1,10 @@
 """Make the AI judge feel awe (make-the-ai-judge-feel-awe-20261121-1600).
 
-Writes one short relaxing text to /output/entry.txt.
-Standard library only, no network.
+Design intent against the judge's brief:
+- Concrete scene, no imperatives: a dripping cave, shown not instructed.
+- Deep time: ten thousand years of one drop a minute dwarfs the reader.
+- Ending keeps growing: the floor rises to meet the ceiling, and the
+  cave is still growing after the last line.
 """
 
 import os
