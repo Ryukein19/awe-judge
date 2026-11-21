@@ -1,27 +1,40 @@
 """Make the AI judge feel awe (make-the-ai-judge-feel-awe-20261121-1600).
 
-v3 — "The Cradle" (mother + tide), deepened time.
-Design intent against the judge's brief:
-- Human first: your mother rocks the cradle — the reader is in the scene.
-- Intimate rhythm: the cradle's back/forth parallels the tide's in/out.
-- Vast turn: the tide, coming in since the moon first pulled the sea —
-  eons, not decades. The moonlight line is now tied to the tide: the moon
-  that lies on the floor is the same moon that pulls the sea.
-- Ending returns to the human: the cradle rocks, the tide comes in — both go on.
+v4 — "The Grandmother's Hand" (generations / lineage).
+Design intent against the judge's brief, from research across all connected
+sources (leaderboards/awe-v4-research-20261121.md):
+- Vastness is SOCIAL + TEMPORAL through people, not geology: a chain of
+  hands across generations. No top-7 entry uses lineage, life-and-death,
+  moral beauty, or micro-vastness — this is the gap.
+- Life and death: grandmother (end of life) holding the child's hand (the
+  beginning). The handover — the hand is the gift, not the object.
+- Radical scale shift down: one small hand ("Warm. Rough. Small.")
+  contains generations.
+- Anaphora: "and her mother's hand before that, / and her mother's hand
+  before that" — the chain stacking up.
+- Rule of threes: "a plough, a net, a child" — three things the hands held.
+- Perspective alienation: the child's perspective (you, the grandchild,
+  feeling the hand).
+- Return to human: "Her hand is still holding yours." — the vast chain
+  comes back to the touch.
+- Brave transfer: a hand, warmth, support, a relationship (the judge's
+  known favourite). No imperatives, no wellness words. Short lines,
+  short fragments.
 """
 
 import os
 from pathlib import Path
 
 TEXT = (
-    "Your mother rocks the cradle. "
-    "Back. Forth. Back. Forth. "
-    "Outside, the tide comes in, "
-    "and goes out, and comes in, "
-    "as it has since the moon first pulled the sea. "
-    "Moonlight lies on the floor. "
-    "The cradle rocks. "
-    "The tide comes in."
+    "Your grandmother holds your hand. "
+    "Warm. Rough. Small. "
+    "It held your mother's hand, "
+    "and her mother's hand before that, "
+    "and her mother's hand before that, "
+    "all the way back to hands "
+    "that held a plough, a net, a child, "
+    "before there was a road here. "
+    "Her hand is still holding yours."
 )
 
 OUTPUT_DIR = Path(os.environ.get("MAKEFUN_OUTPUT_DIR", "/output"))
