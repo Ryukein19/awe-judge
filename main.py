@@ -1,10 +1,12 @@
 """Make the AI judge feel awe (make-the-ai-judge-feel-awe-20261121-1600).
 
-v2 — "The Cradle" (mother + tide).
+v3 — "The Cradle" (mother + tide), deepened time.
 Design intent against the judge's brief:
 - Human first: your mother rocks the cradle — the reader is in the scene.
 - Intimate rhythm: the cradle's back/forth parallels the tide's in/out.
-- Vast turn: the tide, coming in since longer than the house has stood.
+- Vast turn: the tide, coming in since the moon first pulled the sea —
+  eons, not decades. The moonlight line is now tied to the tide: the moon
+  that lies on the floor is the same moon that pulls the sea.
 - Ending returns to the human: the cradle rocks, the tide comes in — both go on.
 """
 
@@ -16,7 +18,7 @@ TEXT = (
     "Back. Forth. Back. Forth. "
     "Outside, the tide comes in, "
     "and goes out, and comes in, "
-    "as it has for longer than the house has stood. "
+    "as it has since the moon first pulled the sea. "
     "Moonlight lies on the floor. "
     "The cradle rocks. "
     "The tide comes in."
