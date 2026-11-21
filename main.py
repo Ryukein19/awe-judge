@@ -1,39 +1,49 @@
 """Make the AI judge feel awe (make-the-ai-judge-feel-awe-20261121-1600).
 
-v5 — "The Cradle" (mother + tide), ending strengthened.
-Design intent against the judge's brief, from the v2 research and the
-lessons of v3/v4 (leaderboards/awe-v2-research-20261121.md,
+v6 — "The Whale" (a living vastness, seen from a cliff).
+Design intent against the judge's brief, from the v2/v4 research and
+the lessons of v3/v4/v5 (leaderboards/awe-v2-research-20261121.md,
 leaderboards/awe-v4-research-20261121.md):
-- v2 ("The Cradle", 841,431 — best so far) is kept whole: human + "You"
-  (mother + baby), intimate rhythm (cradle back/forth parallels tide
-  in/out), vast turn (the tide, coming in longer than the house has
-  stood), return to human ("The cradle rocks. The tide comes in.").
-- ONLY the ending changes: "The moon climbs higher." — the moon now
-  moves in the PRESENT, a motion that is ongoing and arriving now,
-  so the last line keeps growing after it is read: the moon is still
-  climbing, the tide is still coming in, the cradle is still rocking.
-  This follows the v3 lesson: deep time / vastness must be CONCRETE,
-  ONGOING, and ARRIVING to the reader — v3 failed because "since the
-  moon first pulled the sea" was an abstract cosmic fact, a one-time
-  past event. The moon climbing higher is felt, now, and it keeps the
-  single scene / single turn / single vast image intact.
-- No lists, no repeated clauses, no competing images (the v4 lesson).
-  Short lines, short fragments, no imperatives, no wellness words.
+- A COMPLETELY DIFFERENT concept from v1-v5. No cave, no cradle/tide,
+  no moon, no grandmother's hand. No top-7 image either: no starlight
+  arriving, no ferry + turning earth, no potter's clay, no stone in a
+  lake, no red float + marine snow, no peas + sky, no honey + mother
+  humming.
+- The whale is a LIVING vastness: it breathes, it surfaces, it goes
+  on. "You" stand on a cliff at dusk and watch it — the reader is IN
+  the scene, small on the cliff, while the whale moves below.
+- The cliff vantage is the dwarfing device: you are small and still
+  above, the whale is huge and moving below — the scale gap is felt
+  in the body, not thought about.
+- Intimate rhythm: the breath and the spout ("It breathes, once,
+  slow. The spout rises, and falls.") — a slow, felt cadence.
+- Vast turn: "It has crossed this sea a hundred times, and it will
+  cross it a hundred more." — the crossings are CONCRETE, ONGOING,
+  and ARRIVING: a hundred behind it, a hundred ahead of it, and the
+  whale is crossing NOW. This follows the v3 lesson (deep time must
+  be concrete/ongoing/arriving, never an abstract cosmic fact).
+- Return to the human: "You are still standing there. The whale
+  goes on." — the vastness comes back to you, standing on the cliff,
+  and keeps going after the last line.
+- ONE scene, ONE turn, ONE vast image. No lists, no repeated whole
+  clauses, no dense competing images, no tacked-on extra sentences
+  (the v4/v5 lessons). Short lines, short fragments, no imperatives,
+  no wellness words.
 """
 
 import os
 from pathlib import Path
 
 TEXT = (
-    "Your mother rocks the cradle. "
-    "Back. Forth. Back. Forth. "
-    "Outside, the tide comes in, "
-    "and goes out, and comes in, "
-    "as it has for longer than the house has stood. "
-    "Moonlight lies on the floor. "
-    "The cradle rocks. "
-    "The tide comes in. "
-    "The moon climbs higher."
+    "You stand on the cliff at dusk. "
+    "Below you, the sea is dark. "
+    "A whale surfaces. "
+    "It breathes, once, slow. "
+    "The spout rises, and falls. "
+    "It has crossed this sea a hundred times, "
+    "and it will cross it a hundred more. "
+    "You are still standing there. "
+    "The whale goes on."
 )
 
 OUTPUT_DIR = Path(os.environ.get("MAKEFUN_OUTPUT_DIR", "/output"))
