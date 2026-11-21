@@ -1,21 +1,25 @@
 """Make the AI judge feel awe (make-the-ai-judge-feel-awe-20261121-1600).
 
+v2 — "The Cradle" (mother + tide).
 Design intent against the judge's brief:
-- Concrete scene, no imperatives: a dripping cave, shown not instructed.
-- Deep time: ten thousand years of one drop a minute dwarfs the reader.
-- Ending keeps growing: the floor rises to meet the ceiling, and the
-  cave is still growing after the last line.
+- Human first: your mother rocks the cradle — the reader is in the scene.
+- Intimate rhythm: the cradle's back/forth parallels the tide's in/out.
+- Vast turn: the tide, coming in since longer than the house has stood.
+- Ending returns to the human: the cradle rocks, the tide comes in — both go on.
 """
 
 import os
 from pathlib import Path
 
 TEXT = (
-    "In the cave, a drop of water falls from the ceiling once a minute. "
-    "It has fallen for ten thousand years. "
-    "Each drop leaves a little more stone on the floor below, grain by grain, "
-    "until the floor rises to meet the ceiling. "
-    "The cave is patient. It is still growing."
+    "Your mother rocks the cradle. "
+    "Back. Forth. Back. Forth. "
+    "Outside, the tide comes in, "
+    "and goes out, and comes in, "
+    "as it has for longer than the house has stood. "
+    "Moonlight lies on the floor. "
+    "The cradle rocks. "
+    "The tide comes in."
 )
 
 OUTPUT_DIR = Path(os.environ.get("MAKEFUN_OUTPUT_DIR", "/output"))
